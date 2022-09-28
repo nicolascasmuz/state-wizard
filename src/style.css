@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+custom-header {
+  margin-bottom: 40px;
+}
+
+.main {
+  width: 315px;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .main {
+    width: 580px;
+  }
+}
+
+custom-footer {
+  margin-top: 110px;
+}
